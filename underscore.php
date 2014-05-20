@@ -9,21 +9,21 @@
  */
 
 // Returns an instance of __ for OO-style calls
-function __($item=null) {
-  $__ = new __;
+function __u($item=null) {
+  $__ = new __u;
   if(func_num_args() > 0) $__->_wrapped = $item;
   return $__;
 }
 
 // Underscore.php
-class __ {
+class __u {
   
   // Start the chain
   private $_chained = false; // Are we in a chain?
   public function chain($item=null) {
     list($item) = self::_wrapArgs(func_get_args(), 1);
     
-    $__ = (isset($this) && isset($this->_chained) && $this->_chained) ? $this : __($item);
+    $__ = (isset($this) && isset($this->_chained) && $this->_chained) ? $this : __u($item);
     $__->_chained = true;
     return $__;
   }

@@ -1,6 +1,19 @@
-Underscore.php
+WordpressUnderscore.php
 ==============
-Underscore.php is a PHP port of [Underscore.js](http://documentcloud.github.com/underscore/).
+WordpressUnderscore.php is a wordpress-friendly fork of the [Underscore.php](http://brianhaveri.github.com/Underscore.php) PHP port of [Underscore.js](http://documentcloud.github.com/underscore/).
+
+### Usage
+
+	__u().fn() or __u::fn() 
+
+instead of
+
+	__().fn() or __::fn() 
+	
+See above links for details of the actual funtions.
+	
+### Notes
+	
 
 In addition to porting Underscore's functionality, Underscore.php includes matching unit tests. Thanks to Jeremy Ashkenas and all contributors to Underscore.js.
 
