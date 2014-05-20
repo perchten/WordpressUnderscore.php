@@ -1,5 +1,5 @@
 {
-    "name": "perchten/WordpressUnderscore.php",
+    "name": "perchten/wordpressunderscore.php",
     "type": "library",
     "keywords": ["wordpress","underscore", "util", "functional"],
     "description": "WordpressUnderscore.php is a fork of Underscore.php, a PHP port of Underscore.js.",
